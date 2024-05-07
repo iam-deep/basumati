@@ -979,16 +979,16 @@
         },
         {
             "name": "iam-deep/form-tool",
-            "version": "v2.0.16",
+            "version": "v2.0.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iam-deep/form-tool.git",
-                "reference": "d7cfe30fa40d006bf747d621c0df9002b537c92c"
+                "reference": "9128cb3c4a8875887752524f6d0086e2c96d05df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iam-deep/form-tool/zipball/d7cfe30fa40d006bf747d621c0df9002b537c92c",
-                "reference": "d7cfe30fa40d006bf747d621c0df9002b537c92c",
+                "url": "https://api.github.com/repos/iam-deep/form-tool/zipball/9128cb3c4a8875887752524f6d0086e2c96d05df",
+                "reference": "9128cb3c4a8875887752524f6d0086e2c96d05df",
                 "shasum": ""
             },
             "require": {
@@ -1024,9 +1024,9 @@
             "description": "A lightweight Laravel form tool to create your admin panel or web app easily!",
             "support": {
                 "issues": "https://github.com/iam-deep/form-tool/issues",
-                "source": "https://github.com/iam-deep/form-tool/tree/v2.0.16"
+                "source": "https://github.com/iam-deep/form-tool/tree/v2.0.30"
             },
-            "time": "2023-05-04T11:42:36+00:00"
+            "time": "2023-08-08T16:11:59+00:00"
         },
         {
             "name": "intervention/image",

@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use Deep\FormTool\Support\CrudRoute;
-
 // Middlewares
 use Deep\FormTool\Http\Middleware\AdminAuth;
 use Deep\FormTool\Http\Middleware\GuardRequest;
@@ -19,14 +18,13 @@ use Deep\FormTool\Http\Middleware\GuardRequest;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.index');
 });
 
 // Admin Routes
 // The name of the route works with Guard class for user permissions
 Route::middleware(['auth', GuardRequest::class])->prefix(config('form-tool.adminURL'))
 ->name('')->group(function () {
-    
     Route::get('dashboard', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
     CrudRoute::resource('demo-pages', \App\Http\Controllers\Admin\DemoController::class);
@@ -38,7 +36,7 @@ Route::middleware(['auth', GuardRequest::class])->prefix(config('form-tool.admin
         ->name('activities-log.show');
     Route::get('activities-log', [\App\Http\Controllers\Admin\ActionsLogController::class, 'index'])
         ->name('activities-log');
-    
+
     CrudRoute::indexAndUpdate('settings', \App\Http\Controllers\Admin\SettingsController::class);
     CrudRoute::indexAndUpdate('change-password', \App\Http\Controllers\Admin\ChangePasswordController::class, '/{id}');
 });
