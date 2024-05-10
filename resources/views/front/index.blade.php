@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 
@@ -8,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="robots" content="">    
+    <meta name="robots" content="">
     <meta name="description" content="">
     
     <!-- FAVICONS ICON -->
@@ -16,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
     
     <!-- PAGE TITLE HERE -->
-    <title>Build Template | Home Page Style 2</title>
+    <title>Basumati</title>
     
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,15 +23,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/bootstrap.min.css"><!-- BOOTSTRAP STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/fontawesome/css/font-awesome.min.css"><!-- FONTAWESOME STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/flaticon.min.css"><!-- FLATICON STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/animate.min.css"><!-- ANIMATE STYLE SHEET --> 
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/animate.min.css"><!-- ANIMATE STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/owl.carousel.min.css"><!-- OWL CAROUSEL STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/bootstrap-select.min.css"><!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/magnific-popup.min.css"><!-- MAGNIFIC POPUP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/loader.min.css"><!-- LOADER STYLE SHEET -->   
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/loader.min.css"><!-- LOADER STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/css/style.css"><!-- MAIN STYLE SHEET -->
     <link rel="stylesheet" type="text/css" class="skin" href="{{ asset('/assets') }}/css/skin/skin-1.css"><!-- THEME COLOR CHANGE STYLE SHEET -->
 
-    
     <!-- REVOLUTION SLIDER CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets') }}/plugins/revolution/revolution/css/settings.css">
     <!-- REVOLUTION NAVIGATION STYLE -->
@@ -42,7 +40,12 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet">
-    
+
+    <style>
+        .expertise .wt-icon-box-wraper {
+            height: 92.5%;
+        }
+    </style>
 </head>
 
 <body id="bg">
@@ -56,7 +59,7 @@
                 <div class="container">
                     <div class="wt-topbar-right">
                         <ul class="list-unstyled e-p-bx">
-                            <li><i class="fa fa-envelope"></i>mail@thewebmax.com</li>
+                            <li><i class="fa fa-envelope"></i>mail@masumati.com</li>
                             <li><i class="fa fa-phone"></i>(654) 321-7654</li>
                         </ul>
                         <ul class="social-bx list-inline">
@@ -862,7 +865,7 @@
             </div>
             <!-- SLIDER END -->
             
-             <!-- OUR VALUE SECTION START -->           
+             <!-- OUR VALUE SECTION START -->
              <div class="section-full site-bg-primary p-t40 p-b10">
                 <div class="container our-value">
                      <div class="row"> 
@@ -927,7 +930,7 @@
                                     </div>
                                 </div>
                                 <p> 
-                                Welcome to Basmati Incorporation, where innovation meets craftsmanship in the
+                                Welcome to Basumati Incorporation, where innovation meets craftsmanship in the
                     world of construction. Since our inception, we have been dedicated to shaping
                         skylines, creating landmarks, and building dreams that stand the test of time.
                                 </p>
@@ -984,76 +987,76 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
             <!-- ABOUT COMPANY SECTION END -->    
 
 
- <!-- COMPANY DETAIL SECTION START -->
- <div class="section-full p-t50 p-b50 overlay-wraper bg-parallax"  data-stellar-background-ratio="0.5" style="background-image:url({{ asset('/assets') }}/images/background/bg-5.jpg);">
-    <div class="overlay-main opacity-07 bg-black"></div>
-    <div class="container ">
-        <div class="row d-flex justify-content-end">
-            
-            <div class="col-lg-8 col-md-12">
+            <!-- COMPANY DETAIL SECTION START -->
+            <div class="section-full p-t50 p-b50 overlay-wraper bg-parallax"  data-stellar-background-ratio="0.5" style="background-image:url({{ asset('/assets') }}/images/background/bg-5.jpg);">
+                <div class="overlay-main opacity-07 bg-black"></div>
+                <div class="container ">
+                    <div class="row d-flex">
+                        
+                        <div class="col-lg-8 col-md-12">
 
-                <div class=" text-white">
-                    <h3 class="font-24">Vision</h3>
-                   
-                    <p>At Basumati Incorporation, we envision a world where every structure we build
-                        becomes a symbol of excellence, integrity, and sustainability. Our goal is not just to
-                        construct buildings, but to forge enduring relationships and make a positive impact
-                        on the communities we serve.</p>
+                            <div class=" text-white">
+                                <h3 class="font-24">Vision</h3>
+                            
+                                <p>At Basumati Incorporation, we envision a world where every structure we build
+                                    becomes a symbol of excellence, integrity, and sustainability. Our goal is not just to
+                                    construct buildings, but to forge enduring relationships and make a positive impact
+                                    on the communities we serve.</p>
+                            </div>
+
+                            <div class=" text-white">
+                                <h3 class="font-24">Mission</h3>
+                            
+                                <p>Driven by a passion for perfection, our mission is to deliver exceptional construction
+                                    solutions that exceed expectations, inspire awe, and enrich lives. We strive to
+                                    achieve this by harnessing the latest technologies, fostering innovation, and
+                                    upholding the highest standards of quality and integrity.</p>
+                            </div>
+                            
+                            {{-- <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="status-marks  text-white m-b30">
+                                        <div class="status-value text-right">
+                                            <span class="counter">1150</span>
+                                            <i class="fa fa-building font-26 m-l15"></i>
+                                        </div>
+                                        <h6 class="text-uppercase text-white text-right">PROJECT COMPLETED</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="status-marks  text-white m-b30">
+                                        <div class="status-value text-right">
+                                            <span class="counter">5223</span>
+                                            <i class="fa fa-users font-26 m-l15"></i>
+                                        </div>
+                                        <h6 class="text-uppercase text-white text-right">HAPPY CLIENTS</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="status-marks  text-white m-b30">
+                                        <div class="status-value text-right">
+                                            <span class="counter">4522</span>
+                                            <i class="fa fa-user-plus font-26 m-l15"></i>
+                                        </div>
+                                        <h6 class="text-uppercase text-white text-right">WORKERS EMPLOYED</h6>
+                                    </div>
+                                </div>
+                            </div> --}}
+
+                        </div>
+                        
+                        
+                    </div>
                 </div>
-
-                <div class=" text-white">
-                    <h3 class="font-24">Mission</h3>
-                   
-                    <p>Driven by a passion for perfection, our mission is to deliver exceptional construction
-                        solutions that exceed expectations, inspire awe, and enrich lives. We strive to
-                        achieve this by harnessing the latest technologies, fostering innovation, and
-                        upholding the highest standards of quality and integrity.</p>
-                </div>
-                
-                {{-- <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="status-marks  text-white m-b30">
-                            <div class="status-value text-right">
-                                <span class="counter">1150</span>
-                                <i class="fa fa-building font-26 m-l15"></i>
-                            </div>
-                            <h6 class="text-uppercase text-white text-right">PROJECT COMPLETED</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="status-marks  text-white m-b30">
-                            <div class="status-value text-right">
-                                <span class="counter">5223</span>
-                                <i class="fa fa-users font-26 m-l15"></i>
-                            </div>
-                            <h6 class="text-uppercase text-white text-right">HAPPY CLIENTS</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="status-marks  text-white m-b30">
-                            <div class="status-value text-right">
-                                <span class="counter">4522</span>
-                                <i class="fa fa-user-plus font-26 m-l15"></i>
-                            </div>
-                            <h6 class="text-uppercase text-white text-right">WORKERS EMPLOYED</h6>
-                        </div>
-                    </div>
-                </div> --}}
-
-             </div>
-            
-            
-        </div>
-    </div>
-</div>
-<!-- COMPANY DETAIL SECTION End --> 
+            </div>
+            <!-- COMPANY DETAIL SECTION End --> 
                     
             <!-- WHY CHOOSE US SECTION START  -->
-            <div class="section-full bg-gray p-t80 p-b50">
+            <div class="section-full bg-gray p-t80 p-b50 expertise">
             	<div class="container">
                     <!-- TITLE START-->
                     <div class="section-head text-center">
@@ -1070,96 +1073,94 @@
                     <div class="section-content m-b20">
                         <div class="row">
                     
-                        <!-- COLUMNS 1 -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                            <div class="wt-icon-box-wraper  p-a30 center bg-white">
-                                <div class="icon-sm site-text-primary m-b20">
-                                    <a href="about-1.html" class="icon-cell"><i class="fa fa-life-ring" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase">EXPERTISE</h5>
-                                    <p>With a team of seasoned professionals and craftsmen, we bring decades
-of combined experience to every project, ensuring precision and excellence in every
-detail.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 2 -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                            <div class="wt-icon-box-wraper  p-a30 center bg-white">
-                                <div class="icon-sm site-text-primary m-b20">
-                                    <a href="about-1.html" class="icon-cell"><i class="fa fa-trophy" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content ">
-                                    <h5 class="wt-tilte text-uppercase">INNOVATION</h5>
-                                    <p>We embrace cutting-edge technologies and sustainable practices to
-enhance efficiency, minimize environmental impact, and maximize value for our
-clients.</p>
+                            <!-- COLUMNS 1 -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
+                                <div class="wt-icon-box-wraper  p-a30 center bg-white">
+                                    <div class="icon-sm site-text-primary m-b20">
+                                        <a href="about-1.html" class="icon-cell"><i class="fa fa-life-ring" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="wt-tilte text-uppercase">EXPERTISE</h5>
+                                        <p>With a team of seasoned professionals and craftsmen, we bring decades
+                                                    of combined experience to every project, ensuring precision and excellence in every
+                                                    detail.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- COLUMNS 3 -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                            <div class="wt-icon-box-wraper  p-a30 center bg-white ">
-                                <div class="icon-sm site-text-primary m-b20">
-                                    <a href="about-1.html" class="icon-cell"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase">COLLABORATION</h5>
-                                    <p>We believe in the power of collaboration and open communication.
-By working closely with clients, architects, engineers, and subcontractors, we ensure
-seamless project delivery and exceed expectations.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 4 -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                            <div class="wt-icon-box-wraper  p-a30 center bg-white ">
-                                <div class="icon-sm site-text-primary m-b20">
-                                    <a href="about-1.html" class="icon-cell"><i class="fa fa-users" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase">COMMITMENT TO SAFETY</h5>
-                                    <p>The safety of our team members and partners is
-paramount. We maintain rigorous safety standards and protocols on every job site to
-ensure a secure working environment for all.</p>
+                            <!-- COLUMNS 2 -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
+                                <div class="wt-icon-box-wraper  p-a30 center bg-white">
+                                    <div class="icon-sm site-text-primary m-b20">
+                                        <a href="about-1.html" class="icon-cell"><i class="fa fa-trophy" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="icon-content ">
+                                        <h5 class="wt-tilte text-uppercase">INNOVATION</h5>
+                                        <p>We embrace cutting-edge technologies and sustainable practices to
+                                            enhance efficiency, minimize environmental impact, and maximize value for our
+                                            clients.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- COLUMNS 5 -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                            <div class="wt-icon-box-wraper  p-a30 center bg-white">
-                                <div class="icon-sm site-text-primary m-b20">
-                                    <a href="about-1.html" class="icon-cell"><i class="fa fa-area-chart" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase">COMMITMENT TO QUALITY</h5>
-                                    <p>Quality is non-negotiable at Basumati Incorporation. We
-adhere to the highest standards of craftsmanship, using premium materials and
-meticulous attention to detail to deliver projects of unparalleled quality and durability.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 6 -->
-                        {{-- <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                            <div class="wt-icon-box-wraper  p-a30 center bg-white">
-                                <div class="icon-sm site-text-primary m-b20">
-                                    <a href="about-1.html" class="icon-cell"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase">SUSTAINABILITY</h5>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
+                            <!-- COLUMNS 3 -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
+                                <div class="wt-icon-box-wraper  p-a30 center bg-white ">
+                                    <div class="icon-sm site-text-primary m-b20">
+                                        <a href="about-1.html" class="icon-cell"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="wt-tilte text-uppercase">COLLABORATION</h5>
+                                        <p>We believe in the power of collaboration and open communication.
+                                            By working closely with clients, architects, engineers, and subcontractors, we ensure
+                                            seamless project delivery and exceed expectations.</p>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- COLUMNS 4 -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
+                                <div class="wt-icon-box-wraper  p-a30 center bg-white ">
+                                    <div class="icon-sm site-text-primary m-b20">
+                                        <a href="about-1.html" class="icon-cell"><i class="fa fa-users" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="wt-tilte text-uppercase">COMMITMENT TO SAFETY</h5>
+                                        <p>The safety of our team members and partners is
+                                            paramount. We maintain rigorous safety standards and protocols on every job site to
+                                            ensure a secure working environment for all.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 5 -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
+                                <div class="wt-icon-box-wraper  p-a30 center bg-white">
+                                    <div class="icon-sm site-text-primary m-b20">
+                                        <a href="about-1.html" class="icon-cell"><i class="fa fa-area-chart" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="wt-tilte text-uppercase">COMMITMENT TO QUALITY</h5>
+                                        <p>Quality is non-negotiable at Basumati Incorporation. We
+                                                adhere to the highest standards of craftsmanship, using premium materials and
+                                                meticulous attention to detail to deliver projects of unparalleled quality and durability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 6 -->
+                            {{-- <div class="col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
+                                <div class="wt-icon-box-wraper  p-a30 center bg-white">
+                                    <div class="icon-sm site-text-primary m-b20">
+                                        <a href="about-1.html" class="icon-cell"><i class="fa fa-cogs" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="wt-tilte text-uppercase">SUSTAINABILITY</h5>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
+                                    </div>
+                                </div>
+                            </div>
+                            --}}
                         </div>
-                         --}}
-                    </div>
                     </div>
                 </div>
             </div>
             <!-- WHY CHOOSE US SECTION END  --> 
-            
-                       
 
             <!-- LATEST PROJECT SECTION START -->
             <div class="section-full bg-white p-t80">
@@ -1595,130 +1596,133 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
                     </div>
                 </div>
             </div> --}}
-            <!-- LATEST BLOG SECTION END -->    
+            <!-- LATEST BLOG SECTION END -->
             
             
-            	<!-- TITLE START -->
-                <div class="section-head text-center">
-                    <h2 class="text-uppercase">Our Client</h2>
-                    <div class="wt-separator-outer">
-                        <div class="wt-separator style-square">
-                            <span class="separator-left site-bg-primary"></span>
-                            <span class="separator-right site-bg-primary"></span>
+            <!-- OUR CLIENT SLIDER START -->
+            <div class="section-full p-t80 p-b50">
+                <div class="container">
+                    <!-- TITLE START -->
+                    <div class="section-head text-center">
+                        <h2 class="text-uppercase">Our Client</h2>
+                        <div class="wt-separator-outer">
+                            <div class="wt-separator style-square">
+                                <span class="separator-left site-bg-primary"></span>
+                                <span class="separator-right site-bg-primary"></span>
+                            </div>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                    <!-- TITLE END -->
+                    
+                    <!-- IMAGE CAROUSEL START -->
+                    <div class="section-content m-b30">
+                        <div class="owl-carousel client-logo-carousel">
+                        
+                            <!-- COLUMNS 1 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo1.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 2 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 3 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 4 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo4.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 5 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo5.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 6 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo6.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 7 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo1.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 8 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 9 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 10 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo4.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 11 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo5.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COLUMNS 12 --> 
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo wt-img-effect on-color">
+                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo6.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>                        
+                        
                         </div>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <!-- IMAGE CAROUSEL START -->
                 </div>
-                <!-- TITLE END -->
-                
-                <!-- IMAGE CAROUSEL START -->
-                <div class="section-content m-b30">
-                    <div class="owl-carousel client-logo-carousel">
-                    
-                        <!-- COLUMNS 1 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo1.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 2 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo2.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 3 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo3.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 4 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo4.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 5 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo5.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 6 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo6.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 7 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo1.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 8 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo2.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 9 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo3.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 10 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo4.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 11 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo5.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 12 --> 
-                        <div class="item">
-                            <div class="ow-client-logo">
-                                <div class="client-logo wt-img-effect on-color">
-                                    <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo6.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>                        
-                    
-                    </div>
-                </div>
-                <!-- IMAGE CAROUSEL START -->
+            
             </div>
-        
-        </div>
-        <!-- OUR CLIENT SLIDER END --> 
+            <!-- OUR CLIENT SLIDER END --> 
             
             <!-- TESTIMONIAL SECTION START -->
             <div class="section-full p-t80 p-b50 overlay-wraper bg-parallax" data-stellar-background-ratio="0.5" style="background-image:url({{ asset('/assets') }}/images/background/bg3.jpg);">
@@ -1781,131 +1785,6 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
                 </div>
             </div>
             <!-- TESTIMONIAL SECTION START -->
-            
-            <!-- PRICING TABLE SECTION START -->
-         <!--   <div class="section-full p-t80 p-b50 bg-gray">
-                <div class="container">
-                
-                	<!-- TITLE START -->
-                    <!-- <div class="section-head text-center">
-                        <h2 class="text-uppercase">Our Plans</h2>
-                        <div class="wt-separator-outer">
-                            <div class="wt-separator style-square">
-                                <span class="separator-left site-bg-primary"></span>
-                                <span class="separator-right site-bg-primary"></span>
-                            </div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div> -->
-                    <!-- TITLE END -->
-                    
-                    <!-- PRICING TABLE 3 COLUMN -->
-                    <!-- <div class="section-content">
-                        <div class="pricingtable-row">
-                            <div class="row">
-                            
-                                <div class="col-lg-4 col-md-6 m-b30">
-                                    <div class="pricingtable-wrapper">
-                                        <div class="pricingtable-inner">
-                                            
-                                            <div class="pricingtable-title">
-                                                <h3>Basic Plan</h3>
-                                            </div>
-                                            
-                                            <div class="pricingtable-price">
-                                                <span class="pricingtable-bx">$29</span>
-                                                <span class="pricingtable-type">M</span>
-                                            </div>
-                                            
-                                            <ul class="pricingtable-features">
-                                                <li><i class="fa fa-check"></i>  Phone & Email Support  </li>
-                                                <li><i class="fa fa-times"></i> 3 Social Account </li>
-                                                <li><i class="fa fa-check"></i> Branded Reports  </li>
-                                                <li><i class="fa fa-check"></i> Unlock rewards</li>
-                                                <li><i class="fa fa-times"></i> Support Forum</li>
-                                            </ul>
-                                            
-                                            <div class="pricingtable-footer">
-                                                <a href="about-1.html" class="site-button  text-uppercase">Purchase</a>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-lg-4 col-md-6 m-b30">
-                                    <div class="pricingtable-wrapper">
-                                        <div class="pricingtable-inner pricingtable-highlight">
-                                            
-                                            <div class="pricingtable-title">
-                                                <h3>Pro Plan</h3>
-                                            </div>
-                                            
-                                            <div class="pricingtable-price">
-                                                <span class="pricingtable-bx">$49</span>
-                                                <span class="pricingtable-type">M</span>
-                                            </div>
-                                            
-                                            <ul class="pricingtable-features">
-                                                <li><i class="fa fa-check"></i>  Phone & Email Support  </li>
-                                                <li><i class="fa fa-check"></i> 3 Social Account </li>
-                                                <li><i class="fa fa-check"></i> Branded Reports  </li>
-                                                <li><i class="fa fa-check"></i> Unlock rewards</li>
-                                                <li><i class="fa fa-check"></i> Support Forum</li>
-                                            </ul>
-                                            
-                                            <div class="pricingtable-footer">
-                                                <a href="about-1.html" class="site-button  text-uppercase">Purchase</a>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-lg-4 col-md-6 m-b30">
-                                    <div class="pricingtable-wrapper">
-                                        <div class="pricingtable-inner">
-                                        
-                                            <div class="pricingtable-title">
-                                                <h3>Premium Plan</h3>
-                                            </div>
-                                            
-                                            <div class="pricingtable-price">
-                                                <span class="pricingtable-bx">$99</span>
-                                                <span class="pricingtable-type">M</span>
-                                            </div>
-                                            
-                                            <ul class="pricingtable-features">
-                                                <li><i class="fa fa-check"></i>  Phone & Email Support  </li>
-                                                <li><i class="fa fa-check"></i> 3 Social Account </li>
-                                                <li><i class="fa fa-check"></i> Branded Reports  </li>
-                                                <li><i class="fa fa-check"></i> Unlock rewards</li>
-                                                <li><i class="fa fa-check"></i> Support Forum</li>
-                                            </ul>
-                                            
-                                            <div class="pricingtable-footer">
-                                                <a href="about-1.html" class="site-button  text-uppercase">Purchase</a>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- PRICING TABLE SECTION END 
-                </div>
-            
-            </div>-->
-            <!-- PRICING TABLE SECTION END --> 
-                        
-            <!-- OUR CLIENT SLIDER START -->
-            <div class="section-full p-t80 p-b50">
-                <div class="container">
-                
-                
-              
         </div>
         <!-- CONTENT END -->
         
@@ -1938,7 +1817,7 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
                 <div class="container">
                     <div class="row">
                         <!-- ABOUT COMPANY -->
-                        <div class="col-lg-3 col-md-6">  
+                        <div class="col-lg-4 col-md-6">  
                             <div class="widget widget_about">
                                 <h4 class="widget-title">About Company</h4>
                                 <div class="logo-footer clearfix p-b15">
@@ -1948,11 +1827,11 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
                                       sed diam nonummy nibh is euismod tincidunt ut laoreet dolore agna aliquam erat .   
                                       wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.
                                       ipsum dolor sit amet, consectetuer adipiscing. ipsum dolor sit .
-                                </p>  
+                                </p>
                             </div>
-                        </div> 
+                        </div>
                         <!-- RESENT POST -->
-                       <!-- <div class="col-lg-3 col-md-6 col-sm-6">
+                       <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="widget recent-posts-entry-date">
                               <h4 class="widget-title">Resent Post</h4>
                                 <div class="widget-post-bx">
@@ -2011,7 +1890,7 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
                             </div>
                         </div>   -->   
                         <!-- USEFUL LINKS -->
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="widget widget_services">
                                 <h4 class="widget-title">Useful links</h4>
                                 <ul>
@@ -2025,7 +1904,7 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
                             </div>
                         </div>
                         <!-- NEWSLETTER -->
-                       <div class="col-lg-3 col-md-6">
+                       <div class="col-lg-4 col-md-6">
                            <!-- <div class="widget widget_newsletter">
                                 <h4 class="widget-title">Newsletter</h4>
                                 <div class="newsletter-bx">
@@ -2133,8 +2012,6 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
         <button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>Top</button>
         
     </div>
- 
-
 <!-- LOADING AREA START ===== -->
 <div class="loading-area">
     <div class="loading-box"></div>
@@ -2186,8 +2063,5 @@ meticulous attention to detail to deliver projects of unparalleled quality and d
 
 <!-- REVOLUTION SLIDER SCRIPT FILES -->
 <script  src="{{ asset('/assets') }}/js/rev-script-2.js"></script>
-
-
-
 </body>
 </html>
