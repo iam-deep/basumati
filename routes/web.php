@@ -1,10 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Deep\FormTool\Http\Middleware\GuardRequest;
 use Deep\FormTool\Support\CrudRoute;
 // Middlewares
-use Deep\FormTool\Http\Middleware\AdminAuth;
-use Deep\FormTool\Http\Middleware\GuardRequest;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +18,10 @@ use Deep\FormTool\Http\Middleware\GuardRequest;
 
 Route::get('/', function () {
     return view('front.index');
+});
+
+Route::get('/team', function () {
+    return view('front.team');
 });
 
 Route::get('contact', function () {
