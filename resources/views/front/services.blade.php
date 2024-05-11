@@ -10,7 +10,7 @@
             <div class="overlay-main bg-black opacity-07"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Team</h1>
+                    <h1 class="text-white">Services</h1>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
             <div class="container">
                 <ul class="wt-breadcrumb breadcrumb-style-2">
                     <li><a href="javascript:void(0);"><i class="fa fa-home"></i> Home</a></li>
-                    <li>Team</li>
+                    <li>Services</li>
                 </ul>
             </div>
         </div>
@@ -33,14 +33,17 @@
             <div class="container">
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">About Company</h2>
+                    <h2 class="text-uppercase">About Services</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
                             <span class="separator-right site-bg-primary"></span>
                         </div>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>Basumati Incorporation is your trusted partner for all your construction and repair
+                        needs. With a commitment to excellence and a dedication to customer satisfaction,
+                        we offer a comprehensive range of services tailored to meet the diverse needs of our
+                        clients.</p>
                 </div>
                 <!-- TITLE END -->                	
                 <div class="row">
@@ -374,7 +377,7 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">LEADRESHIP</h2>
+                    <h2 class="text-uppercase">Construction Services</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
@@ -395,8 +398,12 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-1.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Founder/CEO Name:</a></h4>
-                                    <p>With [X] years of experience in the construction industry</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">General Contracting:</a></h4>
+                                    <p>From residential homes to commercial buildings, Basumati
+                                        Incorporation provides comprehensive general contracting services for projects of
+                                        any scale or complexity. Our experienced team manages every aspect of the
+                                        construction process, ensuring timely completion, adherence to budget, and superior
+                                        craftsmanship.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -415,10 +422,11 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-2.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Founder/CEO Name</a></h4>
-                                    <p>is the visionary leader behind Basumati Incorporation. Their
-                                        strategic vision, industry knowledge, and commitment to excellence set the tone for
-                                        our company culture and guide our long-term growth and success.</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">New Construction:</a></h4>
+                                    <p>Whether you&#39;re building from the ground up or embarking on a
+                                        major renovation project, Basumati Incorporation brings years of expertise and
+                                        innovation to every new construction endeavor. We work closely with clients to bring
+                                        their vision to life while adhering to the highest standards of quality and safety.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -437,12 +445,11 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-3.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Key Leadership Team Members:</a></h4>
-                                    <p>Our leadership team comprises experienced
-                                        professionals with diverse backgrounds in construction, engineering, project
-                                        management, and business development. With their collective expertise and
-                                        leadership, they ensure that Basumati Incorporation remains at the forefront of the
-                                        industry, delivering innovative solutions and exceeding client expectations.</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Design-Build:</a></h4>
+                                    <p>As proponents of integrated project delivery, Basumati Incorporation
+                                        offers design-build services to streamline the construction process and optimize
+                                        project outcomes. By combining design and construction under one roof, we
+                                        minimize risks, improve efficiency, and deliver superior results.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -455,7 +462,7 @@
                             </div>
                         </div>
                         <!-- COLUMNS 4 -->
-                        <div class="col-lg-3 col-md-6 m-b30">
+                        {{-- <div class="col-lg-3 col-md-6 m-b30">
                             <div class="wt-team-one  bg-white p-a10">
                                 <div class="wt-team-media">
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-4.jpg" alt=""></a>-->
@@ -465,17 +472,17 @@
                                     <p>Basumati Incorporation thrives on the expertise and dedication of its diverse team. From
                                         skilled engineers to meticulous craftsmen, every member plays a vital role in delivering top-
                                         notch construction and repair services to our clients.</p>
-                                    {{-- <ul class="social-icons social-square social-dark m-b0">
+                                    <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> --}}
+                                    </ul> 
                                 </div>
                             </div>
-                        </div>
+                        </div>--}}
                         
                     </div>
                 </div>
@@ -488,7 +495,7 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">ENGINEERING</h2>
+                    <h2 class="text-uppercase">Repair and Renovation Service</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
@@ -509,11 +516,11 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-1.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Civil Engineers:</a></h4>
-                                    <p>Our team of civil engineers brings expertise in structural design,
-                                        site planning, and project management. With their knowledge of engineering
-                                        principles and building codes, they ensure that our projects are not only aesthetically
-                                        pleasing but also structurally sound and safe.</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Building Repairs:</a></h4>
+                                    <p>Basumati Incorporation specializes in repairing and restoring
+                                        buildings to their former glory. Whether it&#39;s fixing structural damage, addressing
+                                        water infiltration issues, or restoring historical properties, our skilled craftsmen have
+                                        the expertise to handle any repair challenge with precision and care.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -532,11 +539,11 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-2.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Electrical Engineers:</a></h4>
-                                    <p>Our electrical engineers are responsible for designing,
-                                        installing, and maintaining electrical systems, including wiring, lighting, and power
-                                        distribution. With their expertise in electrical engineering principles and safety
-                                        regulations, they ensure that our buildings are powered safely and efficiently.</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Renovations:</a></h4>
+                                    <p>Transform your space with Basumati Incorporation&#39;s renovation
+                                        services. Whether you&#39;re updating your home, office, or commercial space, our team
+                                        of experts will work with you to create a customized renovation plan that meets your
+                                        needs, budget, and timeline.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -549,25 +556,28 @@
                             </div>
                         </div>
                         <!-- COLUMNS 3 -->
-                        {{-- <div class="col-lg-3 col-md-6 m-b30">
+                        <div class="col-lg-3 col-md-6 m-b30">
                             <div class="wt-team-one  bg-white p-a10">
                                 <div class="wt-team-media">
                                     <!-- <a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-3.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Tommy Atkins</a></h4>
-                                    <p>Building Worker</p>
-                                        <ul class="social-icons social-square social-dark m-b0">
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Maintenance Services:</a></h4>
+                                    <p>Keep your property in top condition with Basumati
+                                        Incorporation&#39;s maintenance services. From routine inspections and preventive
+                            maintenance to emergency repairs and ongoing support, we offer comprehensive
+                                    maintenance solutions to protect your investment and ensure long-term durability.</p>
+                                       {{--  <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> 
+                                    </ul> --}}
                                 </div>
                             </div>
-                        </div> --}}
+                        </div> 
                         <!-- COLUMNS 4 -->
                         {{-- <div class="col-lg-3 col-md-6 m-b30">
                             <div class="wt-team-one  bg-white p-a10">
@@ -600,7 +610,7 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">PROJECT MANAGEMENT</h2>
+                    <h2 class="text-uppercase">Additional Services</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
@@ -621,11 +631,11 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-1.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Project Managers:</a></h4>
-                                    <p>Our dedicated project managers are the backbone of Basumati
-                                        Incorporation, overseeing every aspect of our construction and repair projects. From
-                                        initial planning and procurement to execution and closeout, they ensure that projects
-                                        are completed on time, within budget, and to the highest quality standards.</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Consulting:</a></h4>
+                                    <p>Basumati Incorporation provides expert consulting services to guide
+                                    clients through every stage of the construction process. From feasibility studies and
+                                    project planning to cost estimation and regulatory compliance, our experienced
+                                    consultants offer strategic insights and solutions to help you achieve your goals.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -644,11 +654,11 @@
                                     <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-2.jpg" alt=""></a>-->
                                 </div>
                                 <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Site Supervisors:</a></h4>
-                                    <p>Our experienced site supervisors play a crucial role in
-                                        coordinating on-site activities, managing resources, and maintaining safety and
-                                        quality standards. With their hands-on approach and attention to detail, they ensure
-                                        that projects run smoothly and efficiently from start to finish.</p>
+                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Project Management:</a></h4>
+                                    <p>Trust Basumati Incorporation to oversee your construction
+                                        project from start to finish. Our dedicated project managers ensure seamless
+                                        coordination, clear communication, and timely delivery, allowing you to focus on your
+                                        core business while we handle the details.</p>
                                     {{-- <ul class="social-icons social-square social-dark m-b0">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
@@ -706,232 +716,8 @@
             
             </div>
         </div>
-        <div class="section-full text-center wt-our-team bg-gray p-t80 p-b50">
-            <div class="container">
-            
-                <!-- TITTLE START -->
-                <div class="section-head text-center">
-                    <h2 class="text-uppercase">SKILLED TRADES PEOPLE</h2>
-                    <div class="wt-separator-outer">
-                        <div class="wt-separator style-square">
-                            <span class="separator-left site-bg-primary"></span>
-                            <span class="separator-right site-bg-primary"></span>
-                        </div>
-                    </div>
-                    <p></p>
-                </div>
-                <!-- TITLE END -->
-                
-                <div class="section-content">
-                    <div class="row">
-                    
-                        <!-- COLUMNS 1 -->
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one bg-white p-a10">
-                                <div class="wt-team-media">
-                                    <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-1.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Carpenters:</a></h4>
-                                    <p>Our team of skilled carpenters brings precision and craftsmanship to
-                                        every project, whether it&#39;s framing, finishing, or custom woodworking. With their
-                                        expertise and attention to detail, they ensure that every piece fits together
-                                        seamlessly, creating beautiful and durable structures.</p>
-                                    {{-- <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 2 -->
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one bg-white p-a10 ">
-                                <div class="wt-team-media ">
-                                    <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-2.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Masons:</a></h4>
-                                    <p>From laying bricks to pouring concrete, our skilled masons are masters of
-                                        their craft, building strong and enduring foundations, walls, and structures. With their
-                                        expertise in masonry techniques and materials, they ensure that our projects stand
-                                        the test of time.</p>
-                                    {{-- <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 3 -->
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one  bg-white p-a10">
-                                <div class="wt-team-media">
-                                    <!-- <a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-3.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Electricians and Plumbers:</a></h4>
-                                    <p>Our team of licensed electricians and plumbers
-                                        ensures that all electrical and plumbing systems are installed and maintained to the
-                                        highest safety and quality standards. From wiring and lighting to pipes and fixtures,
-                                        they ensure that our buildings are functional, efficient, and reliable.</p>
-                                    {{-- <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 4 -->
-                        {{-- <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one  bg-white p-a10">
-                                <div class="wt-team-media">
-                                    <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-4.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">John Halpern</a></h4>
-                                    <p>Building Worker</p>
-                                    <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> 
-                                </div>
-                            </div>
-                        </div> --}}
-                        
-                    </div>
-                </div>
-            
-            </div>
-        </div>
-        <div class="section-full text-center wt-our-team bg-gray p-t80 p-b50">
-            <div class="container">
-            
-                <!-- TITTLE START -->
-                <div class="section-head text-center">
-                    <h2 class="text-uppercase">SUPPORT STAFF</h2>
-                    <div class="wt-separator-outer">
-                        <div class="wt-separator style-square">
-                            <span class="separator-left site-bg-primary"></span>
-                            <span class="separator-right site-bg-primary"></span>
-                        </div>
-                    </div>
-                    <p></p>
-                </div>
-                <!-- TITLE END -->
-                
-                <div class="section-content">
-                    <div class="row">
-                    
-                        <!-- COLUMNS 1 -->
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one bg-white p-a10">
-                                <div class="wt-team-media">
-                                    <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-1.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Administrative Team:</a></h4>
-                                    <p>Behind the scenes, our administrative team keeps Basumati
-                                        Incorporation running smoothly, handling everything from scheduling and logistics to
-                                        billing and customer service. With their professionalism and attention to detail, they
-                                        ensure that our clients receive the support they need throughout the project lifecycle.</p>
-                                    {{-- <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 2 -->
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one bg-white p-a10 ">
-                                <div class="wt-team-media ">
-                                    <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-2.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Customer Service Representatives:</a></h4>
-                                    <p>Our dedicated customer service
-                                        representatives are committed to providing exceptional service and support to our
-                                        clients, addressing their questions, concerns, and feedback with care and
-                                        professionalism. With their focus on client satisfaction, they ensure that every client&#39;s
-                                        experience with Basumati Incorporation is positive and rewarding.</p>
-                                    {{-- <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 3 -->
-                        {{-- <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one  bg-white p-a10">
-                                <div class="wt-team-media">
-                                    <!-- <a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-3.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">Tommy Atkins</a></h4>
-                                    <p>Building Worker</p>
-                                        <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> 
-                                </div>
-                            </div>
-                        </div> --}}
-                        <!-- COLUMNS 4 -->
-                        {{-- <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="wt-team-one  bg-white p-a10">
-                                <div class="wt-team-media">
-                                    <!--<a href="our-team-detail.html"><img src="{{ asset('/assets') }}/images/our-team2/pic-4.jpg" alt=""></a>-->
-                                </div>
-                                <div class="wt-team-info text-center bg-white p-a10">
-                                    <h4 class="wt-team-title"><a href="our-team-detail.html">John Halpern</a></h4>
-                                    <p>Building Worker</p>
-                                        <ul class="social-icons social-square social-dark m-b0">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul> 
-                                </div>
-                            </div>
-                        </div> --}}
-                        
-                    </div>
-                </div>
-            
-            </div>
-        </div>
+      
+  
         <!-- OUR TEAM MEMBER SECTION END -->
         
         <!-- OUR CLIENT SLIDER START -->

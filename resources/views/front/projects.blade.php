@@ -10,7 +10,7 @@
             <div class="overlay-main bg-black opacity-07"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Team</h1>
+                    <h1 class="text-white">Services</h1>
                 </div>
             </div>
         </div>
@@ -374,14 +374,14 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">LEADRESHIP</h2>
+                    <h2 class="text-uppercase">Our team</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
                             <span class="separator-right site-bg-primary"></span>
                         </div>
                     </div>
-                    <p></p>
+                    <p>LEADRESHIP</p>
                 </div>
                 <!-- TITLE END -->
                 
@@ -488,14 +488,14 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">ENGINEERING</h2>
+                    <h2 class="text-uppercase">Our team</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
                             <span class="separator-right site-bg-primary"></span>
                         </div>
                     </div>
-                    <p></p>
+                    <p>ENGINEERING</p>
                 </div>
                 <!-- TITLE END -->
                 
@@ -600,14 +600,14 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">PROJECT MANAGEMENT</h2>
+                    <h2 class="text-uppercase">Our team</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
                             <span class="separator-right site-bg-primary"></span>
                         </div>
                     </div>
-                    <p></p>
+                    <p>PROJECT MANAGEMENT</p>
                 </div>
                 <!-- TITLE END -->
                 
@@ -711,14 +711,14 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">SKILLED TRADES PEOPLE</h2>
+                    <h2 class="text-uppercase">Our team</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
                             <span class="separator-right site-bg-primary"></span>
                         </div>
                     </div>
-                    <p></p>
+                    <p>SKILLED TRADES PEOPLE</p>
                 </div>
                 <!-- TITLE END -->
                 
@@ -825,14 +825,14 @@
             
                 <!-- TITTLE START -->
                 <div class="section-head text-center">
-                    <h2 class="text-uppercase">SUPPORT STAFF</h2>
+                    <h2 class="text-uppercase">Our team</h2>
                     <div class="wt-separator-outer">
                         <div class="wt-separator style-square">
                             <span class="separator-left site-bg-primary"></span>
                             <span class="separator-right site-bg-primary"></span>
                         </div>
                     </div>
-                    <p></p>
+                    <p>SUPPORT STAFF</p>
                 </div>
                 <!-- TITLE END -->
                 

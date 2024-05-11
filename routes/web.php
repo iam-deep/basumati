@@ -24,8 +24,16 @@ Route::get('/team', function () {
     return view('front.team');
 });
 
+Route::get('/services', function () {
+    return view('front.services');
+});
+
+Route::get('projects', function () {
+    return view('front.projects');
+});
+
 Route::get('contact', function () {
-    // return view('front.index');
+    return view('front.contact');
 });
 
 // Admin Routes
