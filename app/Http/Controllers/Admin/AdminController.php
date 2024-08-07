@@ -2,18 +2,17 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Deep\FormTool\Core\BaseController;
-use Deep\FormTool\Core\Guard;
 use Deep\FormTool\Support\Menu;
 use Illuminate\Foundation\Validation\ValidatesRequests;
-use App\Http\Controllers\Controller;
 
 class AdminController extends Controller
 {
     use ValidatesRequests;
     use BaseController;
 
-    protected $settings = null;
+    protected $settings;
 
     public function __construct()
     {
@@ -25,7 +24,7 @@ class AdminController extends Controller
         $menu = Menu::create();
 
         $menu->add('dashboard', 'Dashboard', 'fa fa-dashboard');
-        $menu->add('demo-pages', 'Demo Pages', 'fa fa-bars');
+        $menu->add('galleries', 'Galleries', 'fa fa-bars');
 
         $menu->add('activities-log', 'Activities Log', 'fa fa-bars');
         $menu->addNested('Users', 'fa fa-users', function ($child) {

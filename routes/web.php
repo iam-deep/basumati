@@ -46,7 +46,7 @@ Route::middleware(['auth', GuardRequest::class])->prefix(config('form-tool.admin
 ->name('')->group(function () {
     Route::get('dashboard', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
-    CrudRoute::resource('demo-pages', \App\Http\Controllers\Admin\DemoController::class);
+    CrudRoute::resource('galleries', \App\Http\Controllers\Admin\GalleriesController::class);
 
     CrudRoute::resource('users', \App\Http\Controllers\Admin\UsersController::class);
     CrudRoute::resource('user-groups', \App\Http\Controllers\Admin\UserGroupsController::class);
