@@ -32,6 +32,10 @@ Route::get('projects', function () {
     return view('front.projects');
 });
 
+Route::get('projects-ongoing', function () {
+    return view('front.gallery');
+});
+
 Route::get('contact', function () {
     return view('front.contact');
 });

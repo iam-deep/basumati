@@ -6,14 +6,14 @@
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="call-to-action-left p-tb20 p-r50">
-                        <h4 class="text-uppercase m-b10">We are ready to build your dream tell us more about your project</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p>
+                        <h4 class="text-uppercase m-b10" style="margin-top: 20px;">We are ready to build your dream tell us more about your project</h4>
+                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p> --}}
                     </div>
                 </div>
                 
                 <div class="col-lg-3 col-md-5">
                     <div class="call-to-action-right p-tb30">
-                        <a href="contact-1.html" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
+                        <a href="#" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
                             Contact us  <i class="fa fa-angle-double-right"></i>
                         </a>
                     </div>
@@ -27,21 +27,19 @@
         <div class="container">
             <div class="row">
                 <!-- ABOUT COMPANY -->
-                <div class="col-lg-3 col-md-6">  
+                <div class="col-lg-4 col-md-6">  
                     <div class="widget widget_about">
                         <h4 class="widget-title">About Company</h4>
                         <div class="logo-footer clearfix p-b15">
-                            <a href="index.html"><img src="{{ asset('/assets') }}/images/logo-dark.png" width="230" height="67" alt=""></a>
+                            <a href="#"><img src="{{ asset('/assets/new-images/logo.png') }}" alt="Logo"></a>
                         </div>
-                        <p>Thewebmax ipsum dolor sit amet, interior adipiscing elit,
-                              sed diam nonummy nibh is euismod tincidunt ut laoreet dolore agna aliquam erat .   
-                              wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.
-                              ipsum dolor sit amet, consectetuer adipiscing. ipsum dolor sit .
-                        </p>  
+                        <p>
+                            Welcome to Basumati Incorporation, where innovation meets craftsmanship in the world of construction. Since our inception, we have been dedicated to shaping skylines, creating landmarks, and building dreams that stand the test of time.
+                        </p>
                     </div>
                 </div> 
                 <!-- RESENT POST -->
-               <!-- <div class="col-lg-3 col-md-6 col-sm-6">
+               <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="widget recent-posts-entry-date">
                       <h4 class="widget-title">Resent Post</h4>
                         <div class="widget-post-bx">
@@ -52,7 +50,7 @@
                                 </div>
                                 <div class="wt-post-info">
                                     <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
+                                        <h6 class="#">Blog title first </a></h6>
                                     </div>
                                     <div class="wt-post-meta">
                                         <ul>
@@ -69,7 +67,7 @@
                                 </div>
                                 <div class="wt-post-info">
                                     <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
+                                        <h6 class="#">Blog title first </a></h6>
                                     </div>
                                     <div class="wt-post-meta">
                                         <ul>
@@ -86,7 +84,7 @@
                                 </div>
                                 <div class="wt-post-info">
                                     <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
+                                        <h6 class="#">Blog title first </a></h6>
                                     </div>
                                     <div class="wt-post-meta">
                                         <ul>
@@ -100,21 +98,19 @@
                     </div>
                 </div>   -->   
                 <!-- USEFUL LINKS -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="widget widget_services">
                         <h4 class="widget-title">Useful links</h4>
                         <ul>
-                            <li><a href="about-1.html">About</a></li>
-                            <li><a href="faq-1.html">FAQ</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="our-team.html">Our Team</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="gallery-grid-1.html">Gallery</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Gallery</a></li>
                         </ul>
                     </div>
                 </div>
                 <!-- NEWSLETTER -->
-               <div class="col-lg-3 col-md-6">
+               <div class="col-lg-4 col-md-6">
                    <!-- <div class="widget widget_newsletter">
                         <h4 class="widget-title">Newsletter</h4>
                         <div class="newsletter-bx">
@@ -208,7 +204,7 @@
                     <ul class="copyrights-nav pull-right"> 
                         <li><a href="javascript:void(0);">Terms  & Condition</a></li>
                         <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                        <li><a href="contact-1.html">Contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

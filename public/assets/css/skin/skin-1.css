@@ -279,12 +279,12 @@ ol.list-num-count.list-outline > li::before
 /* Secondery hex buttons bg color*/
 
 .site-button-secondry {
-	background-color: #1a1a1a;
+	background-color: #253C80;
 }
 
 .site-button-secondry:hover,
 .site-button-secondry:focus,
 .site-button-secondry:active {
-	background-color: #303030;
+	background-color: #253C80;
 }
 

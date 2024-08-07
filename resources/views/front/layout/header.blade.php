@@ -24,8 +24,8 @@
         <div class="main-bar bg-white">
             <div class="container">
                 <div class="logo-header">
-                    <a href="index.html">
-                        <img src="{{ asset('/assets') }}/images/logo-dark.png" width="171" height="49" alt="" >
+                    <a href="{{ url('/') }}">
+                        <img src="{{ asset('/assets/new-images/logo.png') }}" width="171" height="49" alt="" >
                     </a>
                 </div>
                 
@@ -138,15 +138,12 @@
                             </ul> --}}
                         </li>
                     
-                        <li>
-                            <a href="{{ url('/projects') }}">Projects<!--<i class="fa fa-chevron-down"></i>--></a>
-                            {{-- <ul class="sub-menu">
-                                <li><a href="product.html">Product</a></li>
-                                <li><a href="product-detail.html">Product Detail</a></li>
-                                <li><a href="shopping-cart.html">Shopping cart</a></li>
-                                <li><a href="wish-list.html">Wishlist</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                            </ul> --}}
+                        <li class="submenu-direction">
+                            <a href="javascript:;">Projects <i class="fa fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="product.html">COMPLETED PROJECTS</a></li>
+                                <li><a href="{{ url('projects-ongoing') }}">ONGOING PROJECTS</a></li>
+                            </ul>
                         </li>
                         
                         <li class="submenu-direction">
