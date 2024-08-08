@@ -33,7 +33,11 @@ Route::get('projects', function () {
 });
 
 Route::get('projects-ongoing', function () {
-    return view('front.gallery');
+    $data = [];
+
+    // ekhane kor
+
+    return view('front.gallery', $data);
 });
 
 Route::get('contact', function () {
@@ -44,20 +48,20 @@ Route::get('contact', function () {
 // The name of the route works with Guard class for user permissions
 Route::middleware(['auth', GuardRequest::class])->prefix(config('form-tool.adminURL'))
 ->name('')->group(function () {
-    Route::get('dashboard', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+    Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
-    CrudRoute::resource('galleries', \App\Http\Controllers\Admin\GalleriesController::class);
+    CrudRoute::resource('galleries', App\Http\Controllers\Admin\GalleriesController::class);
 
-    CrudRoute::resource('users', \App\Http\Controllers\Admin\UsersController::class);
-    CrudRoute::resource('user-groups', \App\Http\Controllers\Admin\UserGroupsController::class);
+    CrudRoute::resource('users', App\Http\Controllers\Admin\UsersController::class);
+    CrudRoute::resource('user-groups', App\Http\Controllers\Admin\UserGroupsController::class);
 
-    Route::get('activities-log/show/{id}', [\App\Http\Controllers\Admin\ActionsLogController::class, 'show'])
+    Route::get('activities-log/show/{id}', [App\Http\Controllers\Admin\ActionsLogController::class, 'show'])
         ->name('activities-log.show');
-    Route::get('activities-log', [\App\Http\Controllers\Admin\ActionsLogController::class, 'index'])
+    Route::get('activities-log', [App\Http\Controllers\Admin\ActionsLogController::class, 'index'])
         ->name('activities-log');
 
-    CrudRoute::indexAndUpdate('settings', \App\Http\Controllers\Admin\SettingsController::class);
-    CrudRoute::indexAndUpdate('change-password', \App\Http\Controllers\Admin\ChangePasswordController::class, '/{id}');
+    CrudRoute::indexAndUpdate('settings', App\Http\Controllers\Admin\SettingsController::class);
+    CrudRoute::indexAndUpdate('change-password', App\Http\Controllers\Admin\ChangePasswordController::class, '/{id}');
 });
 
 require __DIR__.'/auth.php';
