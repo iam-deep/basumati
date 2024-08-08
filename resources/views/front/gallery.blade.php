@@ -6,11 +6,11 @@
 <div class="page-content">
         
     <!-- INNER PAGE BANNER -->
-    <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/gallery-banner.jpg)">
+    <div class="wt-bnr-inr overlay-wraper" style="background-image:url('{{ asset('/assets/new-images/slider.png') }}')">
         <div class="overlay-main bg-black opacity-07"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
-                <h1 class="text-white">Gallery</h1>
+                <h1 class="text-white">{{ $title }}</h1>
             </div>
         </div>
     </div>
@@ -20,8 +20,8 @@
     <div class="bg-gray-light p-tb20">
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-2">
-                <li><a href="javascript:void(0);"><i class="fa fa-home"></i> Home</a></li>
-                <li>Gallery</li>
+                <li><a href="{{ url('/') }}"><i class="fa fa-home"></i> Home</a></li>
+                <li>{{ $title }}</li>
             </ul>
         </div>
     </div>
@@ -32,7 +32,7 @@
         <div class="container">
 
             <!-- PAGINATION TOP START -->
-            <div class="filter-wrap p-tb15">
+            {{-- <div class="filter-wrap p-tb15">
                 <ul class="masonry-filter link-style  text-uppercase">
                     <li class="active"><a data-filter="*" href="#">All</a></li>
                     <li><a data-filter=".cat-1" href="#">House</a></li>
@@ -41,34 +41,47 @@
                     <li><a data-filter=".cat-4" href="#">Garden</a></li>
                     <li><a data-filter=".cat-5" href="#">Interior</a></li>
                 </ul>
-            </div>
+            </div> --}}
             <!-- PAGINATION TOP END -->
             
             <!-- GALLERY CONTENT START -->
            
-            <div class="portfolio-wrap mfp-gallery row no-col-gap">
             
-                <!-- COLUMNS 1 --> 
-                <div class="masonry-item cat-1 col-lg-6 col-md-6 col-sm-6 col-xs-6 m-b30">
-                    <div class="wt-gallery-bx p-lr15">
-                        <div class="wt-thum-bx wt-img-overlay5 wt-img-effect blurr">
-                            <a href="javascript:void(0);">
-                                <img src="images/latest-projects/pic1.jpg"  alt="">
-                            </a>
-                            <div class="overlay-bx">
-                                <div class="overlay-icon">
-                                    <a href="javascript:void(0);">
-                                        <i class="fa fa-external-link wt-icon-box-xs"></i>
-                                    </a>
-                                    <a href="images/gallery/pic1.jpg" class="mfp-link">
-                                        <i class="fa fa-arrows-alt wt-icon-box-xs"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- COLUMNS 2 --> 
+                <!-- COLUMNS 1 -->
+                @foreach ($galleries as $row)
+                    <h3>{{ $row->title }}</h3>
+
+                    @php
+                        $images = json_decode($row->images);
+                    @endphp
+					<div class="portfolio-wrap mfp-gallery row no-col-gap mb-3">
+
+						@foreach ($images as $image)
+							<div class="masonry-item cat-1 col-lg-4 col-md-4 col-sm-4 col-xs-4 m-b30">
+								<div class="wt-gallery-bx p-lr15">
+									<div class="wt-thum-bx wt-img-overlay5 wt-img-effect blurr">
+										<a href="javascript:void(0);">
+											<img src="{{ imageResize($image->image, 350, 350) }}" alt="">
+										</a>
+										<div class="overlay-bx">
+											<div class="overlay-icon">
+												{{-- <a href="javascript:void(0);">
+													<i class="fa fa-external-link wt-icon-box-xs"></i>
+												</a> --}}
+												<a href="{{ $image->image }}" class="mfp-link">
+													<i class="fa fa-arrows-alt wt-icon-box-xs"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						@endforeach
+
+					</div>
+                @endforeach
+
+                {{-- <!-- COLUMNS 2 --> 
                 <div class="masonry-item cat-2 col-lg-6 col-md-6 col-sm-6 col-xs-6 m-b30">
                     <div class="wt-gallery-bx p-lr15">
                         <div class="wt-thum-bx wt-img-overlay5 wt-img-effect blurr">
@@ -207,13 +220,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             
-            </div>
+            {{-- </div> --}}
            
             <!-- GALLERY CONTENT END -->
             
-            <!-- PAGINATION START -->
+            {{-- <!-- PAGINATION START -->
             <div class="pagination-bx  clearfix ">
                 <ul class = "custom-pagination pagination-1">
                    <li><a href = "#">&laquo;</a></li>
@@ -225,7 +238,7 @@
                    <li><a href = "#">&raquo;</a></li>
                 </ul>
             </div>
-            <!-- PAGINATION END -->
+            <!-- PAGINATION END --> --}}
             
         </div>
     </div>

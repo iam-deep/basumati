@@ -2,6 +2,7 @@
 
 use Deep\FormTool\Http\Middleware\GuardRequest;
 use Deep\FormTool\Support\CrudRoute;
+use Illuminate\Support\Facades\DB;
 // Middlewares
 use Illuminate\Support\Facades\Route;
 
@@ -35,7 +36,17 @@ Route::get('projects', function () {
 Route::get('projects-ongoing', function () {
     $data = [];
 
-    // ekhane kor
+    $data['title'] = 'Ongoing Projects';
+    $data['galleries'] = DB::table('galleries_ongoing')->where('status', 1)->orderBy('sortOrder')->whereNull('deletedAt')->get();
+
+    return view('front.gallery', $data);
+});
+
+Route::get('projects-completed', function () {
+    $data = [];
+
+    $data['title'] = 'Completed Projects';
+    $data['galleries'] = DB::table('galleries_completed')->where('status', 1)->orderBy('sortOrder')->whereNull('deletedAt')->get();
 
     return view('front.gallery', $data);
 });
@@ -50,7 +61,8 @@ Route::middleware(['auth', GuardRequest::class])->prefix(config('form-tool.admin
 ->name('')->group(function () {
     Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
-    CrudRoute::resource('galleries', App\Http\Controllers\Admin\GalleriesController::class);
+    CrudRoute::resource('galleries-ongoing', App\Http\Controllers\Admin\GalleriesController::class);
+    CrudRoute::resource('galleries-completed', App\Http\Controllers\Admin\CompletedController::class);
 
     CrudRoute::resource('users', App\Http\Controllers\Admin\UsersController::class);
     CrudRoute::resource('user-groups', App\Http\Controllers\Admin\UserGroupsController::class);

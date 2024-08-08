@@ -141,7 +141,7 @@
                         <li class="submenu-direction">
                             <a href="javascript:;">Projects <i class="fa fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="product.html">COMPLETED PROJECTS</a></li>
+                                <li><a href="{{ url('projects-completed') }}">COMPLETED PROJECTS</a></li>
                                 <li><a href="{{ url('projects-ongoing') }}">ONGOING PROJECTS</a></li>
                             </ul>
                         </li>

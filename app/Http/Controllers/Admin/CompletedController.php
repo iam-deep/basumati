@@ -6,11 +6,11 @@ use Deep\FormTool\Core\BluePrint;
 use Deep\FormTool\Core\DataModel;
 use Deep\FormTool\Core\Doc;
 
-class GalleriesController extends AdminController
+class CompletedController extends AdminController
 {
     // Required for Form Tool
-    public $title = 'Ongoing Projects';
-    public $route = 'galleries-ongoing';
+    public $title = 'Completed Projects';
+    public $route = 'galleries-completed';
     public $singularTitle = 'Gallery';
 
     protected $crud;
@@ -18,7 +18,7 @@ class GalleriesController extends AdminController
     public function setup()
     {
         $model = new DataModel();
-        $model->db('galleries_ongoing', 'galleryid');
+        $model->db('galleries_completed', 'galleryid');
 
         $this->crud = Doc::create($this, $model, function (BluePrint $input) {
             $input->text('title')->required();
