@@ -770,7 +770,7 @@
                         </div>
                         <div class="col-lg-3 col-md-4 our-value-right m-b30">
                             <div class="pull-right">
-                                <a href="#" class="site-button-secondry text-uppercase font-weight-600">Contact us</a>
+                                <a href="{{ url('contact') }}" class="site-button-secondry text-uppercase font-weight-600">Contact us</a>
                             </div>
                         </div>
                      </div>

@@ -10,7 +10,7 @@
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-2">
                 <li><a href="javascript:void(0);"><i class="fa fa-home"></i> Home</a></li>
-                <li>Contact 3</li>
+                <li>Contact</li>
             </ul>
         </div>
     </div>
@@ -30,25 +30,31 @@
                             <div class="icon-sm text-white m-b10"><i class="iconmoon-smartphone-1"></i></div>
                             <div class="icon-content">
                                 <h5 class="text-white">Phone number</h5>
-                                <p class="text-gray-dark">+91 564 548 4854</p>
+                                <p class="text-gray-dark">+9051077126<br><br></p>
+                            
                             </div>
                         </div>
                     </div>
+               
                     <div class="col-md-4 col-sm-12 m-b30">
                         <div class="wt-icon-box-wraper center p-a30 bg-secondry">
                             <div class="icon-sm text-white m-b10"><i class="iconmoon-email"></i></div>
                             <div class="icon-content">
                                 <h5 class="text-white">Email address</h5>
-                                <p class="text-gray-dark">thewebmaxinfo@gmail.com</p>
+                                <p class="text-gray-dark">basumatiincorporation@gmail.com <br><br></p>
+                           
                             </div>
                         </div>
                     </div>
+             
+
                     <div class="col-md-4 col-sm-12 m-b30">
                         <div class="wt-icon-box-wraper center p-a30 bg-secondry">
                             <div class="icon-sm text-white m-b10"><i class="iconmoon-travel"></i></div>
                             <div class="icon-content">
                                 <h5 class="text-white">Address info</h5>
-                                <p class="text-gray-dark">252 W 43rd St New York, NY</p>
+                                <p class="text-gray-dark"> 20, Dr Lal Mohan Bhattacharya Rd, Raja Bazar, Kolkata, West Bengal 700014</p>
+                            
                             </div>
                         </div>
                     </div>
@@ -75,7 +81,7 @@
 
                         <div class="gmap-outline m-b30">
                             <div id="gmap_canvas" class="google-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.010148022944!2d-0.13445098404809602!3d51.51302981811226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d31cdfefbb%3A0x27d5339f1859d7f1!2s62%20Dean%20St%2C%20London%20W1D%204QF%2C%20UK!5e0!3m2!1sen!2sin!4v1666266891426!5m2!1sen!2sin" width="600" height="450"></iframe>
+                                <div class="mapouter"><div class="gmap_canvas"><iframe width="504" height="313" id="gmap_canvas" src="https://maps.google.com/maps?q=Basumati+Incorporation&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online.stopwatch-timer.net"></a><br><a href="https://www.timeronline.net"></a><br><style>.mapouter{position: relative;text-align: right;height: 313px;width: 504px;}</style><a href="https://www.ongooglemaps.com">insert google map html</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 313px;width: 504px;}</style></div></div>
                             </div>
                         </div>
                             
@@ -95,7 +101,7 @@
                     
                         <div class="p-a30 bg-gray">
                     
-                            <form class="cons-contact-form" method="post" action="https://thewebmax.org/build/form-handler.php">
+                            <form class="cons-contact-form" method="post" action="">
                     
                                 <div class="row">
                                 

@@ -18,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $data = [];
+
+    $data['title'] = 'Basumati';
+    $data['testimonials'] = DB::table('testimonials')->where('status', 1)->orderBy('sortOrder')->whereNull('deletedAt')->get();
+    $data['clients'] = DB::table('clients')->where('status', 1)->orderBy('sortOrder')->whereNull('deletedAt')->get();
+
     return view('front.index');
 });
 

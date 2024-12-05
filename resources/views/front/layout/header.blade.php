@@ -33,7 +33,7 @@
                 <div class="header-nav navbar-collapse collapse ">
                     <ul class=" nav navbar-nav">
                         <li class="active">
-                            <a href="javascript:;">Home<!--<i class="fa fa-chevron-down"></i>--></a>
+                            <a href="{{ url('/') }}">Home<!--<i class="fa fa-chevron-down"></i>--></a>
                             {{-- <ul class="sub-menu">
                                 <li><a href="index.html">Home 1</a></li>
                                 <li><a href="index-2.html">Home 2</a></li>
@@ -44,7 +44,7 @@
                         </li>
                     
                         <li>
-                            <a href="javascript:;">Services<!--<i class="fa fa-chevron-down"></i>--></a>
+                            <a href="{{ url('/services') }}">Services<!--<i class="fa fa-chevron-down"></i>--></a>
                             {{-- <ul class="sub-menu">
                                 <li>
                                     <a href="javascript:;">About us</a>
