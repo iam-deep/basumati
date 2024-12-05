@@ -60,7 +60,8 @@ Route::get('contact', function () {
 Route::middleware(['auth', GuardRequest::class])->prefix(config('form-tool.adminURL'))
 ->name('')->group(function () {
     Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
-
+    CrudRoute::resource('clients', App\Http\Controllers\Admin\clientsController::class);
+    CrudRoute::resource('testimonials', App\Http\Controllers\Admin\testimonialsController::class);
     CrudRoute::resource('galleries-ongoing', App\Http\Controllers\Admin\GalleriesController::class);
     CrudRoute::resource('galleries-completed', App\Http\Controllers\Admin\CompletedController::class);
 

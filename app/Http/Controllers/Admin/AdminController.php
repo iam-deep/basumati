@@ -24,9 +24,14 @@ class AdminController extends Controller
         $menu = Menu::create();
 
         $menu->add('dashboard', 'Dashboard', 'fa fa-dashboard');
+
+        $menu->add('clients', 'Clients', 'fa fa-dashboard');
+        $menu->add('testimonials', 'Testimonials', 'fa fa-dashboard');
+
         $menu->add('galleries-ongoing', 'Ongoing Projects', 'fa fa-bars');
         $menu->add('galleries-completed', 'Completed Projects', 'fa fa-bars');
 
+       
         $menu->add('activities-log', 'Activities Log', 'fa fa-bars');
         $menu->addNested('Users', 'fa fa-users', function ($child) {
             $child->add('users', 'Users');
