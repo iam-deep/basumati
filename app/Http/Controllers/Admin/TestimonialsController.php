@@ -26,15 +26,13 @@ class TestimonialsController extends AdminController
 
         $this->crud = Doc::create($this, $model, function (BluePrint $input) {
             $input->text('title')->required();
-            
+
             $input->textarea('content');
-            $input->image('images')->path('demo');
+            $input->image('images');
             $input->select('status')->noFirst()->options([
                 1 => 'Active',
                 0 => 'Inactive'
             ]);
         });
     }
-
-
 }

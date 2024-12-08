@@ -204,7 +204,7 @@
                     <div class="col-lg-6 col-md-12 m-b30">
                         <!-- ACCORDIAN  BG DARK -->
                         <div class="section-content">
-                            <div class="wt-accordion acc-bg-dark" id="accordion9">
+                            <div class="wt-accordion acc-bg-dark" id="accordion10">
                                 <div class="panel wt-panel">
                                     <div class="acod-head acc-actives">
                                         <h6 class="acod-title text-uppercase">
@@ -215,7 +215,7 @@
                                             </a>
                                         </h6>
                                     </div>
-                                    <div id="collapseOne9" class="acod-body collapse show" data-bs-parent="#accordion9">
+                                    <div id="collapseOne9" class="acod-body collapse show" data-bs-parent="#accordion10">
                                         <div class="acod-content p-tb15">
                                             Basumati Incorporation specializes in repairing and restoring
                                             buildings to their former glory. Whether it&#39;s fixing structural damage, addressing water
@@ -234,7 +234,7 @@
                                             </a>
                                         </h6>
                                     </div>
-                                    <div id="collapseTwo9" class="acod-body collapse" data-bs-parent="#accordion9">
+                                    <div id="collapseTwo9" class="acod-body collapse" data-bs-parent="#accordion10">
                                         <div class="acod-content p-tb15">
                                             Transform your space with Basumati Incorporation&#39;s renovation services.
 Whether you&#39;re updating your home, office, or commercial space, our team of experts
@@ -253,7 +253,7 @@ budget, and timeline.
                                             </a>
                                         </h6>
                                     </div>
-                                    <div id="collapseThree9" class="acod-body collapse" data-bs-parent="#accordion9">
+                                    <div id="collapseThree9" class="acod-body collapse" data-bs-parent="#accordion10">
                                         <div class="acod-content p-tb15">
                                             Keep your property in top condition with Basumati
 Incorporation&#39;s maintenance services. From routine inspections and preventive
@@ -293,7 +293,7 @@ maintenance solutions to protect your investment and ensure long-term durability
                     <div class="col-lg-6 col-md-12 m-b30">
                         <!-- ACCORDIAN  BG DARK -->
                         <div class="section-content">
-                            <div class="wt-accordion acc-bg-dark" id="accordion9">
+                            <div class="wt-accordion acc-bg-dark" id="accordion11">
                                 <div class="panel wt-panel">
                                     <div class="acod-head acc-actives">
                                         <h6 class="acod-title text-uppercase">
@@ -304,7 +304,7 @@ maintenance solutions to protect your investment and ensure long-term durability
                                             </a>
                                         </h6>
                                     </div>
-                                    <div id="collapseOne9" class="acod-body collapse show" data-bs-parent="#accordion9">
+                                    <div id="collapseOne9" class="acod-body collapse show" data-bs-parent="#accordion11">
                                         <div class="acod-content p-tb15">
                                             Basumati Incorporation provides expert consulting services to guide clients
                                             through every stage of the construction process. From feasibility studies and project
@@ -323,7 +323,7 @@ maintenance solutions to protect your investment and ensure long-term durability
                                             </a>
                                         </h6>
                                     </div>
-                                    <div id="collapseTwo9" class="acod-body collapse" data-bs-parent="#accordion9">
+                                    <div id="collapseTwo9" class="acod-body collapse" data-bs-parent="#accordion11">
                                         <div class="acod-content p-tb15">
                                             Trust Basumati Incorporation to oversee your construction
                                     project from start to finish. Our dedicated project managers ensure seamless

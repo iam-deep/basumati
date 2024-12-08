@@ -24,7 +24,7 @@ Route::get('/', function () {
     $data['testimonials'] = DB::table('testimonials')->where('status', 1)->orderBy('sortOrder')->whereNull('deletedAt')->get();
     $data['clients'] = DB::table('clients')->where('status', 1)->orderBy('sortOrder')->whereNull('deletedAt')->get();
 
-    return view('front.index');
+    return view('front.index', $data);
 });
 
 Route::get('/team', function () {

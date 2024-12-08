@@ -30,7 +30,7 @@
                             <div class="icon-sm text-white m-b10"><i class="iconmoon-smartphone-1"></i></div>
                             <div class="icon-content">
                                 <h5 class="text-white">Phone number</h5>
-                                <p class="text-gray-dark">+9051077126<br><br></p>
+                                <p class="text-gray-dark">9051077126<br><br></p>
                             
                             </div>
                         </div>

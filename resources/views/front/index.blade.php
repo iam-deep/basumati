@@ -1494,108 +1494,20 @@
                     <div class="section-content m-b30">
                         <div class="owl-carousel client-logo-carousel">
                         
-                            <!-- COLUMNS 1 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo1.png" alt=""></a>
+                            @foreach ($clients as $client)
+                                <div class="item">
+                                    <div class="ow-client-logo">
+                                        <div class="client-logo wt-img-effect on-color">
+                                            <img src="{{ asset(imageResize($client->images, 150, 150)) }}" alt="{{ $client->title }}" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- COLUMNS 2 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo2.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 3 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo3.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 4 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo4.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 5 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo5.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 6 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo6.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 7 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo1.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 8 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo2.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 9 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo3.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 10 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo4.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 11 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo5.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- COLUMNS 12 --> 
-                            <div class="item">
-                                <div class="ow-client-logo">
-                                    <div class="client-logo wt-img-effect on-color">
-                                        <a href="#"><img src="{{ asset('/assets') }}/images/client-logo/logo6.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>                        
-                        
+                            @endforeach
                         </div>
                     </div>
                     <!-- IMAGE CAROUSEL START -->
                 </div>
-            
+
             </div>
             <!-- OUR CLIENT SLIDER END --> 
             
@@ -1619,42 +1531,20 @@
                     <!-- TESTIMONIAL 1 START ON BACKGROUND -->
                     <div class="section-content">
                         <div class="owl-carousel testimonial-one m-b30">
-                            <div class="item">
-                                <div class="testimonial-1 testimonial-bg">
-                                    <div class="testimonial-pic  radius shadow"><img src="{{ asset('/assets') }}/images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                    <div class="testimonial-detail">
-                                        <strong class="testimonial-name">Steve Jobs</strong>
-                                        <span class="testimonial-position">Cfo Loop Inc</span>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-1 testimonial-bg">
-                                    <div class="testimonial-pic  radius shadow"><img src="{{ asset('/assets') }}/images/testimonials/pic2.jpg" width="100" height="100" alt=""></div>
-                                    <div class="testimonial-detail">
-                                        <strong class="testimonial-name">Steve Jobs</strong>
-                                        <span class="testimonial-position">Cfo Loop Inc</span>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
+                            @foreach ($testimonials as $row)
+                                <div class="item">
+                                    <div class="testimonial-1 testimonial-bg">
+                                        {{-- <div class="testimonial-pic  radius shadow"><img src="{{ asset(imageResize($row->images, 150, 150)) }}" width="100" height="100" alt=""></div> --}}
+                                        <div class="testimonial-detail">
+                                            <strong class="testimonial-name">{{ $row->title }}</strong>
+                                            {{-- <span class="testimonial-position">Cfo Loop Inc</span> --}}
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <p> {{ $row->content }}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-1 testimonial-bg">
-                                    <div class="testimonial-pic  radius shadow"><img src="{{ asset('/assets') }}/images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
-                                    <div class="testimonial-detail">
-                                        <strong class="testimonial-name">Steve Jobs</strong>
-                                        <span class="testimonial-position">Cfo Loop Inc</span>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>

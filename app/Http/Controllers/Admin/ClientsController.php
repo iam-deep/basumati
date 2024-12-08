@@ -26,15 +26,13 @@ class ClientsController extends AdminController
 
         $this->crud = Doc::create($this, $model, function (BluePrint $input) {
             $input->text('title')->required();
-                        
-            $input->image('images')->path('demo');
+
+            $input->image('images');
             $input->number('sortOrder', 'Sort Order');
             $input->select('status')->noFirst()->options([
                 1 => 'Active',
                 0 => 'Inactive'
             ]);
-            
         })->run();
     }
-
 }

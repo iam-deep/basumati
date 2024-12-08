@@ -13,7 +13,7 @@
                 
                 <div class="col-lg-3 col-md-5">
                     <div class="call-to-action-right p-tb30">
-                        <a href="#" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
+                        <a href="{{ url('contact') }}" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
                             Contact us  <i class="fa fa-angle-double-right"></i>
                         </a>
                     </div>
@@ -102,10 +102,11 @@
                     <div class="widget widget_services">
                         <h4 class="widget-title">Useful links</h4>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Gallery</a></li>
+                            <li><a href="{{ url('services') }}">Services</a></li>
+                            <li><a href="{{ url('team') }}">Our Team</a></li>
+                            <li><a href="{{ url('projects-completed') }}">Completed Projects</a></li>
+                            <li><a href="{{ url('projects-ongoing') }}">Ongoing Projects</a></li>
+                            <li><a href="{{ url('contact') }}">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -147,7 +148,7 @@
                         </div>
                         <div class="icon-content">
                             <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                            <p> 20, Dr Lal Mohan Bhattacharya Rd, Raja Bazar, Kolkata, West Bengal 700014</p>
+                            <p>20, Dr Lal Mohan Bhattacharya Rd, Raja Bazar, Kolkata, West Bengal 700014</p>
                         </div>
                    </div>
                 </div>
@@ -158,7 +159,7 @@
                         </div>
                         <div class="icon-content">
                             <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                            <p class="m-b0">+9051077126 </p>
+                            <p class="m-b0">9051077126 <br><br></p>
                             <p></p>
                         </div>
                    </div>
@@ -171,8 +172,8 @@
                         </div>
                         <div class="icon-content">
                             <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                            <p class="m-b0">basumatiincorporation@gmail.com</p>
-                            <p></p></p>
+                            <p class="m-b0">basumatiincorporation@gmail.com <br><br></p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
